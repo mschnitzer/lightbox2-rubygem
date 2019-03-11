@@ -517,3 +517,7 @@
 
   return new Lightbox();
 }));
+
+$(document).on('turbolinks:load', function(event) {
+  lightbox.init();
+});
