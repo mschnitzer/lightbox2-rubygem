@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
     '*.md',
   ]
 
-  s.add_runtime_dependency 'jquery-rails', '~> 2.0', '>= 2.0.0'
+  s.add_dependency 'jquery-rails', '>= 3.1.3'
 end
