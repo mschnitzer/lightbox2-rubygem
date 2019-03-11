@@ -1,5 +1,5 @@
 # lightbox2 for Ruby on Rails
-This ruby gem provides the latest version of lightbox2 for the Rails asset pipeline.
+This ruby gem provides the latest version of [lightbox2](https://github.com/lokesh/lightbox2) for the Rails asset pipeline.
 
 ## Installation
 
