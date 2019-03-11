@@ -36,6 +36,15 @@ Please make sure that `jquery` is always loaded before lightbox2!
 
 lightbox2 is now ready and can be used within your Rails application!
 
+To initialize the lightbox, please put the following code between your `<head/>` tag in your `app/views/layouts/application.html.erb` file:
+```html
+<script type="application/javascript">
+  $(document).on('turbolinks:load', function(event) {
+    lightbox.init();
+  });
+</script>
+```
+
 You can copy and paste the following line somewhere in a `view` to test the lightbox:
 ```ruby
 <%= link_to 'my picture', image_path('my_picture.jpg'), data: { lightbox: 'my-lightbox-name', title: 'title or caption for this image' } %>
