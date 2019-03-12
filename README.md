@@ -7,7 +7,7 @@ This ruby gem provides the latest version of [lightbox2](https://github.com/loke
 Require this Ruby gem in your Ruby on Rails app by adding the following line to your `Gemfile`:
 
 ```
-gem 'lightbox2', '~> 2.10.0'
+gem 'lightbox2'
 ```
 
 Install the ruby gem by running `bundle` in your Rails app directory.
