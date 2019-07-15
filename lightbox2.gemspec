@@ -1,6 +1,8 @@
+require_relative 'lib/lightbox2/rails/version'
+
 Gem::Specification.new do |s|
   s.name        = 'lightbox2'
-  s.version     = '2.11.1'
+  s.version     = Lightbox2::Rails::VERSION
   s.date        = '2019-07-15'
   s.summary     = 'lightbox2 for Ruby on Rails'
   s.description = "This gem for Ruby on Rails provides the lightbox2 library to Rails's asset pipeline."
