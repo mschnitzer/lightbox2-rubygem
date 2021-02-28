@@ -1,3 +1,7 @@
+# Release 2.11.3
+
+* Updated lightbox2 to upstream version 2.11.3 ([Upstream changelog](https://github.com/lokesh/lightbox2/releases/tag/v2.11.3))
+
 # Release 2.11.1.1
 
 * Fixed LIGHTBOX2_VERSION and VERSION constants (The values were not updated for the last release)
